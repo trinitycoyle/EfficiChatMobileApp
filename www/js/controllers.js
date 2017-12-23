@@ -144,7 +144,7 @@ $scope.$apply(function($scope) {
 }
 
 //open modal for entering department 1
-/*$ionicModal.fromTemplateUrl('templates/dept1Alert.html', {
+$ionicModal.fromTemplateUrl('templates/dept1Alert.html', {
     scope: $scope,
     animation: 'slide-in-up'
   }).then(function(modal) {
@@ -237,7 +237,7 @@ $ionicModal.fromTemplateUrl('templates/projCAlert.html', {
 
   $scope.closeProjC = function() {
     $scope.modal.show();
-  };*/
+  };
 
 }])
 
